@@ -2,7 +2,7 @@ $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
         $('#header a').addClass('nav-link-dark');
-        $('#headerImg').attr("src", "images/logo-bfece249803f3d440ef27a70c60f54f1.png");
+        $('#headerImg').attr("src", "images/babyboo.png");
         $('.mobile-nav-toggle>span').addClass('mobile-nav-toggle--span');
         $('.mobile-nav-toggle').addClass('mobile-nav-toggle--scrolled');
   
