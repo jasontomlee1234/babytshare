@@ -20,11 +20,7 @@ img::selection {
 }
 
 .header__logo {
-    max-width: 100px;
-}
-
-.header_title{
-    width: 300px;
+    max-width: 130px;
 }
 
 .header {
@@ -33,9 +29,9 @@ img::selection {
 }
 
 .header-scrolled {
-    /* background: rgb(139, 130, 218); */
+    background: rgb(139, 130, 218);
     padding: 0;
-    /* box-shadow: rgba(43, 83, 135, 0.08) 0px 3px 8px 0px; */
+    box-shadow: rgba(43, 83, 135, 0.08) 0px 3px 8px 0px;
 }
 
 .nav-link {
@@ -632,4 +628,13 @@ img::selection {
     .download-wrapper img:last-of-type {
         margin-top: 1rem;
     }
+}
+.size-limit {
+    width: 545px;
+    height: 600px;
+}
+
+.header_title {
+    width: 600px;
+    height: 130px;
 }
