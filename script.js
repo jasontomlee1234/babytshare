@@ -2,14 +2,14 @@ $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
         $('#header a').addClass('nav-link-dark');
-        $('#headerImg').attr("src", "images/babyboo.png");
+        $('#headerImg').attr("src", "images/logo.png");
         $('.mobile-nav-toggle>span').addClass('mobile-nav-toggle--span');
         $('.mobile-nav-toggle').addClass('mobile-nav-toggle--scrolled');
   
     } else {
         $('#header').removeClass('header-scrolled');
         $('#header a').removeClass('nav-link-dark');
-        $('#headerImg').attr("src", "images/babyboo.png");
+        $('#headerImg').attr("src", "images/logo.png");
         $('.mobile-nav-toggle span').removeClass('mobile-nav-toggle--span');
         $('.mobile-nav-toggle').removeClass('mobile-nav-toggle--scrolled');
     }
